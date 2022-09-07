@@ -61,9 +61,9 @@ export default function App() {
        </div>
        </div>
 
-       <pip className="pip">
-      <video className="pip" src="https://cdn.jsdelivr.net/gh/21stChrom/react-5bhddq@main/src/video.mp4/ShuffleSong.mp4" type="video/webm" controls ></video>
-      </pip>
+       <ReactPip className="pip"><pip>
+      <video className="pip" src="https://cdn.jsdelivr.net/gh/21stChrom/react-5bhddq@main/src/video.mp4/ShuffleSong.mp4" type="video/webm" controls ></video></pip>
+      </ReactPip>
 
       </div>
  }
