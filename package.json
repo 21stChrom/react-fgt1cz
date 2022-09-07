@@ -10,9 +10,11 @@
     "react": "18.1.0",
     "react-audio-player": "0.17.0",
     "react-dom": "18.1.0",
+    "react-draggable": "^4.4.5",
     "react-icons": "4.3.1",
     "react-picture-in-picture": "1.0.0",
-    "react-pip": "^0.0.0"
+    "react-pip": "^0.0.0",
+    "react-resizable": "^3.0.4"
   },
   "scripts": {
     "start": "react-scripts start",

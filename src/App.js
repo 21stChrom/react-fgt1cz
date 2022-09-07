@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from 'react-dom'
 import "./style.css";
+import {Resizable} from 'react-resizable'
 import ReactPip from 'react-picture-in-picture'
 import pip from 'react-pip'
 import ReactAudioPlayer from 'react-audio-player'
@@ -61,9 +62,9 @@ export default function App() {
        </div>
        </div>
 
-       <ReactPip className="pip"><pip>
+       <Resizable className="pip"><pip>
       <video className="pip" src="https://cdn.jsdelivr.net/gh/21stChrom/react-5bhddq@main/src/video.mp4/ShuffleSong.mp4" type="video/webm" controls ></video></pip>
-      </ReactPip>
+      </Resizable>
 
       </div>
  }
