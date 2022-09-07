@@ -37,7 +37,7 @@ export default function App() {
     <audio style={{backgroundColor: "transparent"}} controls loop >
     <source src="https://cdn.jsdelivr.net/gh/21stChrom/react-5bhddq@main/src/audio.html/juice/DGold%20-%20Lil%20Parachute%20(Prod.%20Sace%20x%20Loneliness)%20[720p].mp3" type="audio/mpeg" />
       </audio>
-      <div style={{color:"red"}}>``    S0Cliche' - Kisses with your mask on</div> 
+      <div style={{color:"red"}}>``    S0Cliche'</div> 
     <audio style={{backgroundColor: "transparent"}} controls loop >
     <source src="https://cdn.jsdelivr.net/gh/21stChrom/react-5bhddq@main/src/audio.html/juice/s0clich%C3%A9%20-%20Kisses%20With%20Your%20Mask%20On%20[Lyrics%20x%20AMV]%20[720p].mp3" type="audio/mpeg"/>
      </audio>
