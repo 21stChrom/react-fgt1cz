@@ -10,9 +10,7 @@ export default function App() {
   return (
     <div className="container"> 
     <div  className="img" >
-      <pip className="pip">
-      <video className="pip" src="https://cdn.jsdelivr.net/gh/21stChrom/react-5bhddq@main/src/video.mp4/ShuffleSong.mp4" type="video/webm" controls ></video>
-      </pip>
+      
     <div  className="Pmack">
         <div><BsFillDropletFill className="l"/></div>
        <div className="Pmack"><span className="bibop" style={{color: "red"}}><BsFillDropletFill /></span>
@@ -58,6 +56,11 @@ export default function App() {
        <div className="Pmack"><span className="bibop" style={{color: "red"}}><BsFillDropletFill /></span>
        </div>
        </div>
+
+       <pip className="pip">
+      <video className="pip" src="https://cdn.jsdelivr.net/gh/21stChrom/react-5bhddq@main/src/video.mp4/ShuffleSong.mp4" type="video/webm" controls ></video>
+      </pip>
+
       </div>
  }
  <h1 className="animation">
