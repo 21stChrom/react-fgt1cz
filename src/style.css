@@ -5,11 +5,11 @@ p {
 }
 .container{
   float: inline-start;
-  display: flexbox;
+  display: flex-box;
   overflow: hidden;
   justify-content: center;
-  height: fit-content;
-  width: fit-content;
+  height: 80%;
+  width: 95%;
   box-shadow: 15px 8px 24px 7px;
   border: 9px solid transparent;
   border-radius: 5%;
@@ -17,10 +17,9 @@ p {
 }
 .pip {
   margin-left: 2px;
-  
-  margin-top: 8px;
+  margin-top: 12px;
  border-radius: 15%; 
-  left:10%;
+  left:60%;
   position: relative;
   display: flex;
 height: 4rem;
