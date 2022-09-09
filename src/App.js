@@ -3,24 +3,26 @@ import ReactDOM from 'react-dom'
 import "./style.css";
 import {Resizable} from 'react-resizable'
 import ReactPip from 'react-picture-in-picture'
-import pip from 'react-pip'
+import Pip from 'react-picture-in-pinture'
 import ReactAudioPlayer from 'react-audio-player'
 import {FaHome} from '@react-icons/all-files/fa/FaHome'
 import {BsFillDropletFill} from '@react-icons/all-files/bs/BsFillDropletFill'
 export default function App() {
   return (
     <div className="container"> 
-    <div  className="img" >
+  
       
-    <div  className="Pmack">
+    <div  className="Pmack1 Pmack l">
         <div><BsFillDropletFill className="l"/></div>
-       <div className="Pmack"><span className="bibop" style={{color: "red"}}><BsFillDropletFill /></span>
-       </div>
-       </div>
-       <div>
-       <ReactAudioPlayer src="https://cdn.jsdelivr.net/gh/21stChrom/react-5bhddq@main/src/audio.html/juice/FriendShipsMusic.mp3" type="audio/mpeg" loop  controls/>
-       </div>
-       </div>
+       <div className="Pmack1"><span ><BsFillDropletFill /></span>
+     </div>
+     </div>
+     
+
+
+       <ReactAudioPlayer className="" src="https://cdn.jsdelivr.net/gh/21stChrom/react-5bhddq@main/src/audio.html/juice/FriendShipsMusic.mp3" type="audio/mpeg" loop  controls/>
+       <ReactAudioPlayer />
+     
       
  <div>
     <div style={{color:"red"}}>``    Juice - No Laces</div> 
@@ -54,12 +56,11 @@ export default function App() {
 
    <div className="second" style={{color: "transparent", marginTop: "8px"}}><strong>Parker made this app....</strong></div>
    {
-      <div className="first" style={{color: "red"}}>
-      <div className="bb" style={{margin: "100px 10px 10px 10px"}} />
-      <div  className="Pmack">
+      
+      <div  className="Pmack1">
         <div><BsFillDropletFill /></div>
-       <div className="Pmack"><span className="bibop" style={{color: "red"}}><BsFillDropletFill /></span>
-       </div>
+       <div className="Pmack1"><span style={{color: "red"}}><BsFillDropletFill /></span>
+       
        </div>
 
        <Resizable className="pip"><pip>

@@ -6,11 +6,11 @@ p {
 .container{
   
   float: inline-start;
-  display: flex-box;
+  display: grid;
   overflow: hidden;
   justify-content: center;
-  height: 80%;
-  width: 95%;
+  height: 90%;
+  width: 98%;
   box-shadow: 15px 8px 24px 7px;
   border: 9px solid transparent;
   border-radius: 5%;
@@ -18,13 +18,10 @@ p {
 }
 .pip {
   margin-left: 2px;
-  margin-top: 12px;
+  margin-top: 2px;
  border-radius: 15%; 
-  left:60%;
-  position: relative;
-  display: flex;
-height: 4rem;
-width: 4rem;
+height: 2rem;
+width: 2rem;
 }
 .l{
 border: 3px solid blue;
@@ -57,24 +54,30 @@ a:visited{
 }
 .line1{
   display: inline;
-  padding-left: 55px;
+  padding-left: 5px;
   border: 1px solid black;
-  height: 100%;
-  width: 1em;
+  height: 1%;
+  width: 10px;
 }
-.Pmack {
-  margin-top: -1px;
-  justify-content: right;
-  height:   100%;
-  width: 100%;
-  border: 3px solid transparent;
-  border-radius: 50%;
+.Pmack1 {
+  margin-top: 2px;
+  justify-content: right;c
+  border: 3px solid red;
   text-align: center;
   animation: Pmack 18s linear infinite;
-  transform-origin: 50% 50%;
+  transform-origin: 5%;
   color: red;
 }
-@keyframes Pmack {
+.Pmack {
+  width: fit-content;
+  justify-content: right;
+  border: 1px solid blue;
+  text-align: center;
+  animation: Pmack 18s linear reverse infinite;
+  transform-origin: 50%;
+  color: red;
+}
+@keyframes Pmack1 {
   0% {
 transform: rotate(0deg);
   }
@@ -83,22 +86,21 @@ transform: rotate(360deg);
   }
 }
 .l {
+  padding: 3px 3px 3px 3px;
+  width: ;
+  height: ;
   margin-top: -1px;
   justify-content: right;
-  height: 5%;
-  width: 5%;
-  border: 3px solid transparent;
-  border-radius: 50%;
   text-align: center;
   animation: l --60ms linear reverse infinite;
-  transform-origin: 50% 50%;
+  transform-origin: 0%;
   color: red;
 }
 @keyframes l {
   0% {
-transform: rotate(0deg);
+transform: rotate( 0deg);
   }
   100% {
-transform: rotate(-360deg);
+transform: rotate(360deg);
   }
 }
