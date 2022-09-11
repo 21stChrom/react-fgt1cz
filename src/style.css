@@ -24,7 +24,8 @@ height: 2rem;
 width: 2rem;
 }
 .l{
-border: 3px solid blue;
+  align-items: center;
+margin: 0px 0px 60px 0px;
 }
 
 
@@ -61,8 +62,7 @@ a:visited{
 }
 .Pmack1 {
   margin-top: 2px;
-  justify-content: right;c
-  border: 3px solid red;
+  justify-content: right;
   text-align: center;
   animation: Pmack 18s linear infinite;
   transform-origin: 5%;
@@ -71,13 +71,12 @@ a:visited{
 .Pmack {
   width: fit-content;
   justify-content: right;
-  border: 1px solid blue;
   text-align: center;
   animation: Pmack 18s linear reverse infinite;
   transform-origin: 50%;
   color: red;
 }
-@keyframes Pmack1 {
+@keyframes Pmack {
   0% {
 transform: rotate(0deg);
   }

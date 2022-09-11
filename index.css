@@ -1,3 +1,5 @@
 #root{
+  z-index: 7;
+  background-image: url(view-source:https://stackblitz.com/edit/react-fgt1cz?file=src%2FApp.js,src%2Fstyle.css,public%2Ffavicon.ico);
   background: black;
 }
