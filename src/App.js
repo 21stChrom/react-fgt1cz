@@ -9,15 +9,29 @@ import {FaHome} from '@react-icons/all-files/fa/FaHome'
 import {BsFillDropletFill} from '@react-icons/all-files/bs/BsFillDropletFill'
 export default function App() {
   return (
+
+
     <div className="container"> 
-  
-      
+      <div className="cage">
     <div  className="Pmack1 Pmack l">
-        <div><BsFillDropletFill className="l"/></div>
-       <div className="Pmack1"><span ><BsFillDropletFill /></span>
-     </div>
-     </div>
-     
+
+        <div>
+       <span>  
+{
+           <BsFillDropletFill className="Pmacktop"/>
+}  
+           </span>
+          </div>
+        
+       <div className="Pmack1">
+         <span >
+           {
+           <BsFillDropletFill />
+}
+           </span>
+          </div>
+        </div>
+          </div>
 
 
        <ReactAudioPlayer className="" src="https://cdn.jsdelivr.net/gh/21stChrom/react-5bhddq@main/src/audio.html/juice/FriendShipsMusic.mp3" type="audio/mpeg" loop  controls/>
@@ -55,20 +69,21 @@ export default function App() {
     />
 
    <div className="second" style={{color: "transparent", marginTop: "8px"}}><strong>Parker made this app....</strong></div>
-   {
+   
       
       <div  className="Pmack1">
-        <div><BsFillDropletFill /></div>
+        <div>
+          <BsFillDropletFill />
+        </div>
        <div className="Pmack1"><span style={{color: "red"}}><BsFillDropletFill /></span>
-       
        </div>
 
-       <Resizable className="pip"><pip>
-      <video className="pip" src="https://cdn.jsdelivr.net/gh/21stChrom/react-5bhddq@main/src/video.mp4/ShuffleSong.mp4" type="video/webm" controls ></video></pip>
+       <Resizable className="pip">
+      <video className="" src="https://cdn.jsdelivr.net/gh/21stChrom/react-5bhddq@main/src/video.mp4/ShuffleSong.mp4" type="video/webm" controls ></video>
       </Resizable>
-
       </div>
- }
+
+ 
  <h1 className="animation">
    <button style={{backgroundColor: "transparent", border: "3px solid transparent"}}><a href="https://www.github.com/21stChrom"><FaHome /></a></button>
    </h1>
