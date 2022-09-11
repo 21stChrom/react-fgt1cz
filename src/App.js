@@ -71,12 +71,8 @@ export default function App() {
    <div className="second" style={{color: "transparent", marginTop: "8px"}}><strong>Parker made this app....</strong></div>
    
       
-      <div  className="Pmack1">
-        <div>
-          <BsFillDropletFill />
-        </div>
-       <div className="Pmack1"><span style={{color: "red"}}><BsFillDropletFill /></span>
-       </div>
+   <div  className="Pmack1">
+       
 
        <Resizable className="pip">
       <video className="" src="https://cdn.jsdelivr.net/gh/21stChrom/react-5bhddq@main/src/video.mp4/ShuffleSong.mp4" type="video/webm" controls ></video>
