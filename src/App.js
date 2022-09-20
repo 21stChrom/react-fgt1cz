@@ -75,7 +75,7 @@ export default function App() {
        
 
        <Resizable className="pip">
-      <video className="" src="https://cdn.jsdelivr.net/gh/21stChrom/react-5bhddq@main/src/video.mp4/ShuffleSong.mp4" type="video/webm" controls ></video>
+      <video className="" src="https://cdn.jsdelivr.net/gh/21stChrom/react-5bhddq@main/src/video.mp4/ShuffleSong.mp4" type="video/webm" controls   ></video>
       </Resizable>
       </div>
 
