@@ -33,6 +33,8 @@ export default function App() {
         </div>
           </div>
 
+<iframe src="https://192.168.1.123:8080">
+  </iframe>
 
        <ReactAudioPlayer className="" src="https://cdn.jsdelivr.net/gh/21stChrom/react-5bhddq@main/src/audio.html/juice/FriendShipsMusic.mp3" type="audio/mpeg" loop  controls/>
        <ReactAudioPlayer />
@@ -75,7 +77,7 @@ export default function App() {
        
 
        <Resizable className="pip">
-      <video className="" src="192.168.1.123:8080" type="video/webm" controls   ></video>
+      <video className="" src="https://parker.23232323@192.168.1.123:8080/video" type="video/wmjeg" controls   ></video>
       </Resizable>
       </div>
 
