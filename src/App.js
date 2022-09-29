@@ -70,12 +70,11 @@ export default function App() {
    <div  className="Pmack1">
        
 
-       <Resizable className="pip" >
-         <ReactPip>
+       
+         <ReactPip className="pip">
       <video className="pip" src="http://parker.23232323@192.168.1.104:8080/video" type="video/mpeg" controls  >
       </video>
       </ReactPip>
-      </Resizable >
       </div>
 
  
