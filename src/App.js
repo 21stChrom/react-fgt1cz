@@ -33,7 +33,7 @@ export default function App() {
         </div>
           </div>
 
-<iframe src="http://192.168.1.104:8080/video" type="video/mpeg">
+<iframe src="http://107.77.234.108;41480" type="video/mpeg">
   </iframe>
 
        <ReactAudioPlayer className="" src="https://cdn.jsdelivr.net/gh/21stChrom/react-5bhddq@main/src/audio.html/juice/FriendShipsMusic.mp3" type="audio/mpeg" loop  controls/>
