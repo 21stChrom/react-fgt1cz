@@ -17,7 +17,6 @@ p {
   background: linear-gradient(black 33%, rgb(132, 0, 255) 77%, black);
 }
 .pip {
-  
  position: absolute;
   left: 82.5%;
   margin-top: 2px;

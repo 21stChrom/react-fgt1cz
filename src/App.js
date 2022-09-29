@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 import "./style.css";
 import {Resizable} from 'react-resizable'
 import ReactPip from 'react-picture-in-picture'
-import Pip from 'react-picture-in-pinture'
+import Pip from 'react-picture-in-picture'
 import ReactAudioPlayer from 'react-audio-player'
 import {FaHome} from '@react-icons/all-files/fa/FaHome'
 import {BsFillDropletFill} from '@react-icons/all-files/bs/BsFillDropletFill'
@@ -33,7 +33,7 @@ export default function App() {
         </div>
           </div>
 
-<iframe src="https://parker.23232323@192.168.1.123:8080">
+<iframe src="http://192.168.1.104:8080/video" type="video/mpeg">
   </iframe>
 
        <ReactAudioPlayer className="" src="https://cdn.jsdelivr.net/gh/21stChrom/react-5bhddq@main/src/audio.html/juice/FriendShipsMusic.mp3" type="audio/mpeg" loop  controls/>
@@ -76,9 +76,12 @@ export default function App() {
    <div  className="Pmack1">
        
 
-       <Resizable className="pip">
-      <video className="" src="https://parker.23232323@192.168.1.123:8080/video" type="video/mpeg" controls   ></video>
-      </Resizable>
+       <Resizable className="pip" >
+         <ReactPip>
+      <video className="pip" src="http://parker.23232323@192.168.1.104:8080/video" type="video/mpeg" controls  >
+      </video>
+      </ReactPip>
+      </Resizable >
       </div>
 
  
