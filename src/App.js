@@ -1,5 +1,5 @@
 import React from "react";
-import useRef, useState, useEffect from 
+import {useRef, useState, useEffect} from 'react';
 import "./style.css";
 import {Resizable} from 'react-resizable'
 import ReactPip from 'react-picture-in-picture'
